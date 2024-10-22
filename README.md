@@ -54,8 +54,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/Cicero-Dotnet
-$ cd Cicero-Dotnet
+git clone https://github.com/MelissaData/Cicero-Dotnet
+cd Cicero-Dotnet
 ```
 
 ## Windows
@@ -100,15 +100,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\CiceroDotnet.ps1
+	.\CiceroDotnet.ps1
 	```
 
 - Command Line 
 
 	You can pass a latitude, longitude, number of records, and license string into `-lat`, `-long`, `-location`, `-max`, and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ .\CiceroDotnet.ps1 -lat "33.637520" -long "-117.606920" -location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" -max "1"
-    $ .\CiceroDotnet.ps1 -lat "33.637520" -long "-117.606920" -location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" -max "1" -license "<your_license_string>"
+    .\CiceroDotnet.ps1 -lat "33.637520" -long "-117.606920" -location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" -max "1"
+    .\CiceroDotnet.ps1 -lat "33.637520" -long "-117.606920" -location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" -max "1" -license "<your_license_string>"
     ```
 	
 This is the expected output from a successful setup for interactive mode:
@@ -164,15 +164,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./CiceroDotnet.sh
+	./CiceroDotnet.sh
 	```
 
 - Command Line 
 
 	You can pass a latitude, longitude, number of records, and license string into `--lat`, `--long`, `--location`, `--max`, and `--license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ ./CiceroDotnet.sh --lat "33.637520" --long "-117.606920" --location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" --max "1"
-    $ ./CiceroDotnet.sh --lat "33.637520" --long "-117.606920" --location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" --max "1" --license "<your_license_string>"
+    ./CiceroDotnet.sh --lat "33.637520" --long "-117.606920" --location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" --max "1"
+    ./CiceroDotnet.sh --lat "33.637520" --long "-117.606920" --location "22382 Avenida Empresa, Rancho Santa Margarita, CA, 92688" --max "1" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
