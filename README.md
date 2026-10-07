@@ -5,6 +5,8 @@ This code showcases the Melissa Cicero Cloud API using C#.
 
 Please feel free to copy or embed this code to your own project. Happy coding!
 
+For the latest Melissa Cicero release notes, please visit: https://releasenotes.melissa.com/cloud-api/cicero-api/
+
 For further documentation, please visit: https://docs.melissa.com/cloud-api/cicero/cicero-quickstart.html
 
 The console will ask the user for:
